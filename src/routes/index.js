@@ -9,6 +9,7 @@ const routes = (app) => {
   app.use("/api/v1/auth", auth);
   app.use("/api/v1/insert", insert);
   app.use("/api/v1/book", book);
+
   app.use(notFound);
 };
 
